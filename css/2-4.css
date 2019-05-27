@@ -1,0 +1,133 @@
+* {
+	padding: 0;
+    margin: 0 ;
+
+}
+
+html {
+	font-size: 100px;
+}
+
+body {
+	font-size: 16px;
+}
+
+li {
+	list-style-type: none;
+}
+
+@media screen and (max-width:320px) {
+	html {
+		font-size: 85px;
+	}
+}
+
+@media screen and (min-width:321px) and (max-width:360px) {
+	html {
+		font-size: 96px;
+	}
+}
+
+@media screen and (min-width:361px) and (max-width:375px) {
+	html {
+		font-size: 100px;
+	}
+}
+
+@media screen and (min-width:376px) and (max-width:414px) {
+	html {
+		font-size: 110.4px;
+	}
+}
+
+@media screen and (min-width:415px) and (max-width:768px) {
+	html {
+		font-size: 204.8px;
+	}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+	html {
+		font-size: 273px;
+	}
+
+}
+@media screen and (min-width:1025px) and (max-width:1366px) {
+	html {
+		font-size: 364.3px;
+	}
+}
+.wrapper {
+	width: 100%;
+}
+.nav {
+	/* width: 100%; */
+	font-size: 0.18rem;
+	display: flex;
+	justify-content: center;
+	padding-top: 0.3rem;
+	flex-direction: row;
+}
+
+@font-face {
+	font-family: 'iconfont';
+	/* project id 1209209 */
+	src: url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.eot');
+	src: url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.eot?#iefix') format('embedded-opentype'),
+		url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.woff2') format('woff2'),
+		url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.woff') format('woff'),
+		url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.ttf') format('truetype'),
+		url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	/* font-size: 0.2rem; */
+	font-style: normal;
+}
+.nav{
+	position: relative;
+}
+.nav .iconfont{
+	position: absolute;
+	left: 0;
+	top: 0.33rem;
+	margin-left: 0.09rem;
+}
+.nav p{
+	margin: 0;
+	font-size: 0.18rem;
+}
+.img1{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.img1 img{
+	padding-top: 0.62rem;
+	width: 1.02rem;
+}
+.img1 p:nth-of-type(1){
+	margin-top: 0.29rem;
+	font-size: 0.2rem;
+}
+.img1 p:nth-of-type(2){
+	margin-top: 1.01rem;
+	font-size: 0.13rem;
+	color: #9F9F9F;
+	margin-bottom: 0.05rem;
+}
+.img1 p:nth-of-type(3){
+	font-size: 0.13rem;
+	color: #9F9F9F;
+	margin: 0;
+}
+.btn{
+	margin-top: 0.12rem;
+	width: 3.45rem;
+	height: 0.45rem;
+	background: #09BB07;
+	border-radius: 0.05rem;
+	font-size: 0.13rem;
+	color: #FFFFFF;
+}

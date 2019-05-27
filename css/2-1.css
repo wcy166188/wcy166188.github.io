@@ -1,0 +1,268 @@
+* {
+	padding: 0;
+	/* margin: 0 auto; */
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+html {
+	font-size: 100px;
+}
+body{
+	font-size: 16px;
+}
+
+li {
+	list-style-type: none;
+}
+
+@media screen and (max-width:320px) {
+	html {
+		font-size: 85px;
+	}
+}
+
+@media screen and (min-width:321px) and (max-width:360px) {
+	html {
+		font-size: 96px;
+	}
+}
+
+@media screen and (min-width:361px) and (max-width:375px) {
+	html {
+		font-size: 100px;
+	}
+}
+
+@media screen and (min-width:376px) and (max-width:414px) {
+	html {
+		font-size: 110.4px;
+	}
+}
+
+@media screen and (min-width:415px) and (max-width:768px) {
+	html {
+		font-size: 204.8px;
+	}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+	html {
+		font-size: 274px;
+	}
+}
+@media screen and (min-width:1025px) and (max-width:1366px) {
+	html {
+		font-size: 364.3px;
+	}
+}
+.wrapper {
+	width: 100%;
+}
+
+.nav {
+	/* width: 100%; */
+	font-size: 0.18rem;
+	display: flex;
+	justify-content: center;
+	padding-top: 0.3rem;
+	flex-direction: row;
+}
+
+@font-face {
+	font-family: 'iconfont';
+	/* project id 1209209 */
+	src: url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.eot');
+	src: url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.eot?#iefix') format('embedded-opentype'),
+		url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.woff2') format('woff2'),
+		url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.woff') format('woff'),
+		url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.ttf') format('truetype'),
+		url('//at.alicdn.com/t/font_1209209_c73kn04dwlt.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 0.2rem;
+	font-style: normal;
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	/* font-size: 0.2rem; */
+	font-style: normal;
+}
+.nav{
+	position: relative;
+}
+.nav .iconfont{
+	position: absolute;
+	left: 0;
+	top: 0.33rem;
+	margin-left: 0.09rem;
+}
+.nav p{
+	margin: 0;
+	font-size: 0.18rem;
+}
+
+.nav1 {
+	display: flex;
+	font-size: 0.14rem;
+	justify-content: space-between;
+}
+
+.nav1 p:last-child {
+	font-size: 0.12rem;
+	padding-right: 0.25rem;
+}
+
+.nav1 p:nth-of-type(1) {
+	padding-left: 0.25rem;
+}
+
+.img1 {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.img1 .img1-1 {
+	width: 1.14rem;
+	padding-top: 0.18rem;
+}
+
+.img1 .img1-2 img {
+	width: 0.35rem;
+	margin-top: 0.225rem;
+}
+
+.nav2 p {
+	font-size: 0.14rem;
+	padding-left: 0.25rem;
+	padding-top: 0.235rem;
+	padding-bottom: 0.14rem;
+}
+
+.nav3 {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.12rem;
+}
+
+.nav3 p:nth-of-type(1) {
+	padding-left: 0.25rem;
+}
+
+.nav3 p:nth-of-type(2) {
+	padding-right: 0.25rem;
+}
+
+.nav3 p {
+	margin-top: 0;
+	margin-bottom: 0.19rem;
+}
+.nav3 img{
+	width: 0.13rem;
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 0.22rem;
+	justify-content: space-between;
+	padding: 0 0.125rem;
+}
+
+.flex-item {
+	width: 1.5rem;
+	padding:0 0.0982rem;
+	padding-bottom: 0.14rem;
+}
+
+.f1 {
+	width: 1.5rem;
+	/* border: solid red; */
+	border: #EAEAEA solid 1px;
+	border-radius: 0.05rem;
+}
+.f1:hover{
+	border: #09BB07 solid 0.01rem;
+}
+.content .flex-item .f11 {
+	display: flex;
+	flex-direction: row;
+	padding: 0.135rem 0.135rem 0.09rem 0.14rem;
+	
+}
+
+.content .flex-item .f11 .f1-1 {
+	width: 1.2rem;
+}
+
+.content .flex-item .f11 .f1-2 {
+	width: 0.3rem;
+	/* margin-left: 0.25rem; */
+	margin-top: 0.06rem;
+}
+.content .flex-item .f11 .f1-2 img{
+	width: 0.3rem;
+	
+}
+.content .flex-item .f11 .f1-1 ul li:nth-of-type(1) {
+	font-size: 0.15rem;
+	color: #BCBCBC;
+}
+
+.content .flex-item .f11 .f1-1 ul li:nth-of-type(2) {
+	font-size: 0.24rem;
+	color: #656565;
+}
+
+.content .flex-item .f11 .f1-1 ul li:nth-of-type(3) {
+	font-size: 0.1rem;
+	color: #CCCCCC;
+}
+
+.content .flex-item .f11 .f1-1 ul li span {
+	font-size: 0.12rem;
+}
+
+.f1 .f12 {
+	width: 1.5rem;
+	text-align: center;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	border-top: #F1F1F1 solid;
+}
+.footer p{
+	font-size: 0.11rem;
+	color: #8B8B8B;
+	text-align: center;
+	padding-top: 0.16rem;
+}
+.last{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.2rem;
+}
+.last1{
+	padding-top: 0.28rem;
+	padding-bottom: 0.14rem;
+}
+.last1 ul li:nth-of-type(1){
+	font-size: 0.11rem;
+	padding-left: 0.04rem;
+}
+.last1 ul li:nth-of-type(2){
+	font-size: 0.21rem;
+}
+.last2 .btn{
+	width: 0.75rem;
+	height: 0.335rem;
+	border: none;
+	background: #69BE49;
+	border-radius: 0.05rem;
+	font-size: 0.21rem;
+	color: #FFFFFF;
+	margin-top: 0.3rem;
+}
